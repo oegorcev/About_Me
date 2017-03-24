@@ -1,14 +1,61 @@
-<html> 
-<head> 
-<title>Пример 1</title> 
-</head> 
-<body> 
-<H1>Привет!</H1> 
-<P>Это простейший пример HTML-документа.</P> 
-<P>Этот *.html-файл может быть одновременно открыт
- и в Notepad, и в Netscape. 
-Сохранив изменения в Notepad, просто нажмите кнопку
- Reload ('перезагрузить') в Netscape, чтобы увидеть
- эти изменения реализованными в HTML-документе.</P> 
-</body> 
+п»ї<!DOCTYPE html>
+<html>
+<head>
+  <title>Р”РѕРјР°С€РЅСЏСЏ СЃС‚СЂР°РЅРёС†Р°</title>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<header id="page-header">
+				<h1 id="welcome" class="short">
+					<script>
+						const greetings = ['Р”РѕР±СЂРѕР№ РЅРѕС‡Рё!', 'Р”РѕР±СЂРѕРµ СѓС‚СЂРѕ!', 'Р”РѕР±СЂС‹Р№ РґРµРЅСЊ!', 'Р”РѕР±СЂС‹Р№ РІРµС‡РµСЂ!'];
+						
+						const date = new Date();
+						document.write('<div align="center">');
+						document.write(greetings[Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 21600000) % 4]);
+						document.write('</div>');
+					</script>
+					<noscript><div align="center">РџСЂРёРІРµС‚СЃС‚РІСѓСЋ!</div></noscript>
+				</h1>
+</header>
+			
+  <p>&emsp;РњРµРЅСЏ Р·РѕРІСѓС‚ Р•РіРѕСЂС†РµРІ РћР»РµРі. РЇ СЃС‚СѓРґРµРЅС‚ С‚СЂРµС‚СЊРµРіРѕ РєСѓСЂСЃР° РРўРђ Р®Р¤РЈ РРљРўРР‘ РєР°С„РµРґСЂС‹ 
+  <a href="http://mopevm.sfedu.ru">РњРћРџ Р­Р’Рњ</a>
+  РЅР°РїСЂР°РІР»РµРЅРёСЏ "РџСЂРѕРіСЂР°РјРјРЅР°СЏ РёРЅР¶РµРЅРµСЂРёСЏ" РіРѕСЂРѕРґР° РўР°РіР°РЅСЂРѕРі. Р­С‚Рѕ РјРѕСЏ РґРѕРјР°С€РЅР°СЏСЏ СЃС‚СЂР°РЅРёС†Р°.</p>
+  <div class="passion"><div align="center">РњРѕРё РљРѕРЅС‚Р°РєС‚С‹:</div></div>
+						
+<div align="justify"><nav class="page-footer">
+		<ul>
+			<li>
+				<a href="mailto:mrEDitor@mail.ru">
+					<img  src="mail.svg" width="120" height="120" alt>
+					<br>
+					oleg.egortsev@ictis.sfedu.ru
+					</br>
+				</a>
+			</li>
+			<li>
+				<a href="http://codeforces.com/profile/olegman43">
+					<img  src="codeforces.svg" width="120" height="120" alt>
+					<br>
+					CodeForces.com
+					</br>
+				</a>
+			</li>
+			<li>
+				<a href="https://vk.com/mrEDitor">
+					<img src="vk.svg" width="120" height="120" alt>
+					<br>
+					Р’РљРѕРЅС‚Р°РєС‚Рµ
+					</br>
+				</a>
+			</li>
+		</ul>			
+	<footer>
+		В©&nbsp;2017 Mr_Nobody_43
+	</footer>
+</div></nav>
+
+</body>
 </html>
