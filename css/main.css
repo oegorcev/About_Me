@@ -1,0 +1,68 @@
+﻿html {
+	font-family: "PT Sans", "Open Sans", "Fira Sans", "Noto Sans";
+	font-size: 1.2em;
+	line-height: 2rem;
+	width: 100%;
+}
+
+#page-footer {
+	clear: both;
+}
+
+footer {
+	border-top: 0.1rem solid;
+	padding-top: 0.2rem;
+}
+
+section, nav {
+	padding: 0.2ex;
+}
+ul {
+	padding: 0 2ex;
+	margin: 0.2rem;
+}
+
+
+.column {
+	margin: auto;
+	margin-bottom: 1.25rem;
+	max-width: 80ex;
+}
+
+.linkbar {
+	flex: 0 1 auto;
+	max-width: none;
+	width: 100%;
+	margin: 0ex auto 2ex auto;
+}
+
+.linkbar ul {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+	padding: 0 4ex;
+	text-align: center;
+}
+
+.linkbar li {
+	display: inline-block;
+	min-width: 16ex;
+	flex: 0 1;
+	vertical-align: top;
+}
+
+.linkbar a img {
+	display: block;
+	margin: auto;
+	height: 80%;
+	width: 80%;
+	transition: all 100ms ease-in;
+}
+
+.linkbar a:hover img {
+	transform: scale(1.16);
+}
+

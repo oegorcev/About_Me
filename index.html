@@ -1,61 +1,56 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-  <title>Домашняя страница</title>
-  <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
-<header id="page-header">
-				<h1 id="welcome" class="short">
-					<script>
-						const greetings = ['Доброй ночи!', 'Доброе утро!', 'Добрый день!', 'Добрый вечер!'];
-						
-						const date = new Date();
-						document.write('<div align="center">');
-						document.write(greetings[Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 21600000) % 4]);
-						document.write('</div>');
-					</script>
-					<noscript><div align="center">Приветствую!</div></noscript>
-				</h1>
-</header>
-			
-  <p>&emsp;Меня зовут Егорцев Олег. Я студент третьего курса ИТА ЮФУ ИКТИБ кафедры 
-  <a href="http://mopevm.sfedu.ru">МОП ЭВМ</a>
-  направления "Программная инженерия" города Таганрог. Это моя домашнаяя страница.</p>
-  <div class="passion"><div align="center">Мои Контакты:</div></div>
-						
-<div align="justify"><nav class="page-footer">
-		<ul>
-			<li>
-				<a href="mailto:oleg.egortsev@ictis.sfedu.ru">
-					<img  src="mail.svg" width="120" height="120" alt>
-					<br>
-					oleg.egortsev@ictis.sfedu.ru
-					</br>
-				</a>
-			</li>
-			<li>
-				<a href="http://codeforces.com/profile/olegman43">
-					<img  src="codeforces.svg" width="120" height="120" alt>
-					<br>
-					CodeForces.com
-					</br>
-				</a>
-			</li>
-			<li>
-				<a href="https://vk.com/sqqsqdqsdqdqswdqdqsdqsdqsdqsdsqd">
-					<img src="vk.svg" width="120" height="120" alt>
-					<br>
-					ВКонтакте
-					</br>
-				</a>
-			</li>
-		</ul>			
-	<footer>
-		©&nbsp;2017 Mr_Nobody_43
-	</footer>
-</div></nav>
-
-</body>
+	<head>
+	  <meta charset="utf-8"/>
+	  <title>Mr_Nobody_43</title>
+	  <link rel="stylesheet"  href="css/main.css">  
+	</head>
+	<body>
+		<header id="page-header">
+						<h1 id="welcome" class="short">
+							<script>
+								const greetings = ['Доброй ночи!', 'Доброе утро!', 'Добрый день!', 'Добрый вечер!'];
+								
+								const date = new Date();
+								document.write('<div align="center">');
+								document.write(greetings[Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 21600000) % 4]);
+								document.write('</div>');
+							</script>
+							<noscript><div align="center">Приветствую!</div></noscript>
+						</h1>
+		</header>
+	<div id ="Main information">
+	  <p>&emsp;Меня зовут Егорцев Олег. Я студент четвёртого курса ИТА ЮФУ ИКТИБ кафедры 
+	  <a href="http://mopevm.sfedu.ru">МОП ЭВМ</a>
+	  направления "Программная инженерия" города Таганрог. Это моя домашнаяя страница.</p>
+	  </div>
+	  <p align="center">Мои Контакты:</p>				
+		<div id="page-footer">
+			<nav id="contacts" class="column linkbar">
+				<ul>
+					<li>
+						<a href="mailto:oleg.egortsev@ictis.sfedu.ru">
+							<img  src="images/mail.svg" width="60" height="60" alt>
+							oleg.egortsev               
+						</a>
+					</li>
+					<li>
+						<a href="http://codeforces.com/profile/olegman43">
+							<img  src="images/codeforces.svg" width="60" height="60" alt>
+							CodeForces.com
+						</a>
+					</li>
+					<li>
+						<a href="https://vk.com/sqqsqdqsdqdqswdqdqsdqsdqsdqsdsqd">
+							<img src="images/vk.svg" width="60" height="60" alt>
+							ВКонтакте
+						</a>
+					</li>
+				</ul>
+			</nav>		
+			<footer>
+				<p align="center">© 2017-<script>document.write(new Date().getFullYear())</script> Mr_Nobody_43</p>
+			</footer>
+		</div>
+	</body>
 </html>
