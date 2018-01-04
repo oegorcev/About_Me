@@ -5,6 +5,12 @@
 	width: 100%;
 }
 
+body {
+	background: #A4A4A4 url(../images/background.jpg) no-repeat;
+	background-size: 100%;	/* Цвет фона и путь к файлу */
+	color: #000000; /* Цвет текста */
+}
+
 #page-footer {
 	clear: both;
 }
