@@ -1,23 +1,50 @@
 ﻿html {
 	font-family: "PT Sans", "Open Sans", "Fira Sans", "Noto Sans";
-	font-size: 1.2em;
+	font-size: 1.3em;
 	line-height: 2rem;
 	width: 100%;
 }
 
-body {
-	background: #A4A4A4 url(../images/background.jpg) no-repeat;
-	background-size: 100%;	/* Цвет фона и путь к файлу */
-	color: #000000; /* Цвет текста */
+html {
+ min-height: 100%;
+ background-size: cover; /*Значение cover масштабирует изображение, в зависимости от размеров блока*/
+ background-image: url(../images/background.jpg);
+ background-repeat: no-repeat;
+background-position: right bottom; /*Изображение будет обрезано, в зависимости от значений*/
+}
+ 
+body{
+ min-height:100%;
+}
+
+#Main-information, #page-header{
+	width:60%;
+	padding-left: 0.5rem;
+}
+
+#banners, #copyright  {
+	clear: both;
+	float: left;
+	padding-left: 0.5rem;
+}
+
+#banners{
+	padding-top: 1rem;
+	clear: both;
+	display: right;
 }
 
 #page-footer {
+	padding-top: 1.5rem;
 	clear: both;
+	padding-left: 0.5rem;
+	width:60%;
 }
 
-footer {
-	border-top: 0.1rem solid;
+#contacts{
 	padding-top: 0.2rem;
+	border-top: 0.1rem solid;
+	border-bottom: 0.1rem solid;	
 }
 
 section, nav {
@@ -27,7 +54,6 @@ ul {
 	padding: 0 2ex;
 	margin: 0.2rem;
 }
-
 
 .column {
 	margin: auto;

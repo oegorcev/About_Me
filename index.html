@@ -8,23 +8,40 @@
 	</head>
 	<body>
 		<header id="page-header">
-						<h1 id="welcome" class="short">
-							<script>
-								const greetings = ['Доброй ночи!', 'Доброе утро!', 'Добрый день!', 'Добрый вечер!'];
-								
-								const date = new Date();
-								document.write('<div align="center">');
-								document.write(greetings[Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 21600000) % 4]);
-								document.write('</div>');
-							</script>
-							<noscript><div align="center">Приветствую!</div></noscript>
-						</h1>
+			<h1 id="welcome" class="short">
+				<script>
+					const greetings = ['Доброй ночи!', 'Доброе утро!', 'Добрый день!', 'Добрый вечер!'];
+					
+					const date = new Date();
+					document.write('<div align="center">');
+					document.write(greetings[Math.floor((date.getTime() - date.getTimezoneOffset() * 60000) / 21600000) % 4]);
+					document.write('</div>');
+				</script>
+				<noscript><div align="center">Приветствую!</div></noscript>
+			</h1>
 		</header>
-	<div id ="Main information">
-	  <p>&emsp;Меня зовут Егорцев Олег. Я студент четвёртого курса ИТА ЮФУ ИКТИБ кафедры 
-	  <a href="http://mopevm.sfedu.ru">МОП ЭВМ</a>
-	  направления "Программная инженерия" города Таганрог. Это моя домашнаяя страница.</p>
-	  </div>			
+		<div id ="Main-information">
+		  <p>&emsp;Меня зовут Егорцев Олег. На данный момент я студент четвёртого курса ИТА ЮФУ ИКТИБ кафедры 
+		  <a href="http://msauc.ru/">МОП ЭВМ</a>
+		  направления "Программная инженерия".</p>
+		  <div id ="achievements"
+			<p align="center">Мои достижения:</p>
+			<ul align="left">
+				<li>
+					<a href="http://contest.sgu.ru/monitor/1">2017-2018 ACM-ICPC, NEERC, Southern Subregional Contest (#29/73)</a>
+				</li>
+				<li>
+					<a href="https://neerc.ifmo.ru/archive/2016/southern/standings.html">2016-2017 ACM-ICPC, NEERC, Southern Subregional Contest (#55/69)</a>
+				</li>
+				<li>
+					<a href="https://drive.google.com/file/d/0B_696mqtd6beNk1TNkpvbl96NkE/view?usp=sharing">Второе место в командном турнире по спортивному программированию среди студентов ЮФУ</a>
+				</li>
+				<li>
+					<a href="//">Первое место в студенческой лиге осенней серии игр «Что?Где?Когда?»</a>
+				</li>
+			</ul>
+		  </div>
+		</div>			
 		<div id="page-footer">
 			<nav id="contacts" class="column linkbar">
 				<ul>
@@ -53,31 +70,26 @@
 						</a>
 					</li>
 					<li>
-						<a href="https://www.last.fm/user/Mr_Nobody_43">
-							<img  src="images/lastfm.png" width="60" height="60" alt>
-							Last.fm           
-						</a>
-					</li>
-					<li>
 						<a href="https://shikimori.org/Mr.Nobody43">
 							<img  src="images/shikimori.png" width="60" height="60" alt>
 							Shikimori          
 						</a>
 					</li>
-					
-					
+					<li>
+						<a href="https://www.last.fm/user/Mr_Nobody_43">
+							<img  src="images/lastfm.png" width="60" height="60" alt>
+							Last.fm           
+						</a>
+					</li>				
 				</ul>
-			</nav>		
+			</nav>	
 			<footer>
-			<p align="center">© 2017-<script>document.write(new Date().getFullYear())</script> Mr_Nobody_43</p>
-				<div id = "banners" align = "center">
-					<!-- Yandex.Metrika informer -->
+				<div id = "copyright"> © 2017-<script>document.write(new Date().getFullYear())</script> <noscript>2017</noscript> Egorcev Oleg </div>
+				<div id = "banners" align = "left">
 					<a href="https://metrika.yandex.ru/stat/?id=47205612&amp;from=informer"
 					target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/47205612/3_1_FFFFFFFF_EFEFEFFF_0_pageviews"
 					style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="47205612" data-lang="ru" /></a>
-					<!-- /Yandex.Metrika informer -->
-
-					<!-- Yandex.Metrika counter -->
+					
 					<script type="text/javascript" >
 						(function (d, w, c) {
 							(w[c] = w[c] || []).push(function() {
@@ -105,7 +117,6 @@
 					</script>
 					<noscript><div><img src="https://mc.yandex.ru/watch/47205612" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 				</div>
-				
 			</footer>
 		</div>
 	</body>
