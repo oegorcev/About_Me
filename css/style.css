@@ -1,0 +1,95 @@
+.container {
+    max-width: 928px;
+    margin: 0 auto;
+    padding: 0 16px;
+  }
+
+ul {
+	padding: 0 2ex;
+	margin: 0.2rem;
+}
+
+details {
+    margin-bottom: 10px;
+}
+
+section, nav {
+	padding: 0.2ex;
+}
+
+.intro {
+    margin: 0 0 30px;
+  }
+
+.column {
+	margin: auto;
+	margin-bottom: 1.25rem;
+	max-width: 80ex;
+}
+
+h2 {
+    font-weight: 500;
+  }
+
+.page-header .container,
+.page-footer .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+/*Link bar */
+#banners  {
+    margin-top: 30px;
+  }
+  
+.linkbar {
+	flex: 0 1 auto;
+	max-width: none;
+	width: 100%;
+	margin: 0ex auto 2ex auto;
+}
+
+.linkbar ul {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin: auto;
+	padding: 0 4ex;
+	text-align: center;
+}
+
+.linkbar li {
+	display: inline-block;
+	min-width: 16ex;
+	flex: 0 1;
+	vertical-align: top;
+}
+
+.linkbar a img {
+	display: block;
+	margin: auto;
+	height: 80%;
+	width: 80%;
+	transition: all 100ms ease-in;
+}
+
+.linkbar a:hover img {
+	transform: scale(1.16);
+}
+/*-------*/
+
+  #loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+  }

@@ -1,0 +1,158 @@
+
+.hero-image {
+  margin-bottom: 480px;
+}
+
+.hero-image .container {
+  max-width: 1408px;
+  text-align: center;
+}
+
+.heading {
+  margin: 0 0 24px;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.hero-image p {
+  margin: 0;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+
+
+.subh2 {
+  margin: 0 0 36;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.user-image {
+  margin: 0 0 32px;
+  text-align: center;
+}
+
+.intro h3,
+.portfolio h3 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+.portfolio {
+  margin: 0 0 30px;
+}
+
+
+.intro p {
+  margin: 0 0 16px;
+}
+
+
+
+.level {
+  margin: 4px 0 16px;
+  padding: 0;
+  height: 14px;
+  font-size: 0;
+  background-color: #080208;
+  border: 1px solid #712073;
+  border-radius: 8px;
+}
+
+.level div {
+  margin: 1px;
+  height: 12px;
+  background-color: #fea18d;
+  border-radius: 6px;
+}
+
+
+
+/*Changed */
+.page-header {
+  margin: 0 0 180px;
+  padding: 32px 0 32px;
+  background-color: #260c26;
+}
+
+
+.page-header a {
+  margin-left: 56px;
+  color: #fea18d;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.header-email {
+  padding-left: 30px;
+  background-image: url("../img/white/icon-email.svg");
+}
+
+
+body {
+  margin: 0;
+  min-width: 1408px;
+  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #222222;
+  background-image: url("../img/white/hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+a {
+  color: purple;
+}
+
+.subheading {
+  margin: 0 0 1px;
+  font-size: 56px;
+  line-height: 65px;
+  text-align: center;
+}
+
+.button {
+  padding: 6px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #712073;
+  color: whitesmoke;
+}
+
+.button-theme {
+  padding: 6px 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #fea18d;
+}
+
+.page-footer {
+  padding: 40px 0;
+  background-color: #260c26;
+}
+
+.page-footer a {
+  font-size: 10px;
+  margin-left: 56px;
+  color: #fea18d;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.footer-email {
+  padding-left: 30px;
+  background-image: url("../img/white/icon-email.svg");
+}
